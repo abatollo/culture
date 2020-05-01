@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  background-color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 21px;
+}
+
+.site-header {
+  margin-top: 37px;
+}
+
+.site-logo {
+  font-family: "Playfair Display", Georgia, Times, serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 47px;
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0 auto;
+  width: 1171px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding-top: 23px;
+  padding-bottom: 40px;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.site-header .site-logo {
+  color: black;
+  font-size: 35px;
+}
+
+.header-menu .menu-link {
+  color: black;
+}
+
+.footer-menu .menu-link {
+  color: white;
+}
+
+.slider-section {
+  height: 464px;
+  background-image: url("img/dubai-hotel.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.slider-heading {
+  margin: 0;
+  color: white;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-top: 138px;
+  position: relative;
+}
+
+.slider-heading::before {
+  content: "";
+  height: 55px;
+  width: 55px;
+  background-image: url("img/slider-before.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 50px;
+  left: 693px;
+}
+
+.slider-lead {
+  width: 445px;
+  color: white;
+  padding-top: 132px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 22px;
+}
+
+.section-heading {
+  margin: 0;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.reviews-section {
+  margin: 0 auto;
+  width: 1169px;
+  padding-top: 47px;
+  padding-bottom: 53px;
+}
+
+.reviews-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.reviews-item {
+  max-width: 370px;
+}
+
+.reviews-item:nth-of-type(2) .reviews-heading {
+  color: #ff7931;
+}
+
+.reviews-image {
+  display: block;
+}
+
+.reviews-heading {
+  font-family: "Playfair Display", Georgia, Times, serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.reviews-lead {
+  margin: 0;
+  padding-top: 8px;
+}
+
+.offerings-section {
+  background-color: #f7f7f7;
+  padding-top: 33px;
+  padding-left: 366px;
+  padding-right: 367px;
+  padding-bottom: 36px;
+  background-image: url("img/offerings-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.offerings-list {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  width: 370px;
+}
+
+.offerings-item {
+  padding-bottom: 12px;
+}
+
+.offerings-heading {
+  font-family: "Playfair Display", Georgia, Times, serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  margin: 0;
+  padding-top: 35px;
+}
+
+.offerings-lead {
+  margin: 0;
+  padding-top: 8px;
+  position: relative;
+}
+
+.offerings-lead::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: -23px;
+  left: 134px;
+  right: 134px;
+}
+
+.offerings-button {
+  display: block;
+  width: 170px;
+  height: 47px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 11px 30px;
+  background-color: #ff7931;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: relative;
+  padding-right: 57px;
+  letter-spacing: 2px;
+  line-height: 26px;
+}
+
+.offerings-button::after {
+  content: "";
+  width: 24px;
+  height: 25px;
+  background-image: url("img/arrow-forward.svg");
+  background-size: contain;
+  position: absolute;
+  right: 29px;
+  bottom: 11px;
+}
+
+.site-footer {
+  margin-top: 51px;
+  background-color: #575757;
+}
+
+.site-footer .site-logo {
+  color: white;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.footer-menu {
+  padding: 0;
+  padding-top: 4px;
+  position: relative;
+}
+
+.footer-menu::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: white;
+  opacity: 0.4;
+  bottom: -44px;
+}
+
+.social-menu {
+  display: flex;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding-top: 79px;
+  padding-bottom: 40px;
+}
+
+.social-link {
+  display: block;
+  width: 47px;
+  height: 47px;
+  background-color: white;
+  margin: 7px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-link-instagram {
+  background-image: url("img/instagram-icon.svg");
+}
+
+.social-link-facebook {
+  background-image: url("img/facebook-icon.svg");
+}
+
+.social-link-twitter {
+  background-image: url("img/twitter-icon.svg");
+}
