@@ -62,7 +62,7 @@ body {
 
 .slider-section {
   height: 464px;
-  background-image: url("img/dubai-hotel.jpg");
+  background-image: url("../img/dubai-hotel.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -86,7 +86,7 @@ body {
   content: "";
   height: 55px;
   width: 55px;
-  background-image: url("img/slider-before.svg");
+  background-image: url("../img/slider-before.svg");
   position: absolute;
   background-repeat: no-repeat;
   top: 50px;
@@ -160,7 +160,7 @@ body {
   padding-left: 366px;
   padding-right: 367px;
   padding-bottom: 36px;
-  background-image: url("img/offerings-background.png");
+  background-image: url("../img/offerings-background.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -226,7 +226,7 @@ body {
   content: "";
   width: 24px;
   height: 25px;
-  background-image: url("img/arrow-forward.svg");
+  background-image: url("../img/arrow-forward.svg");
   background-size: contain;
   position: absolute;
   right: 29px;
@@ -282,13 +282,13 @@ body {
 }
 
 .social-link-instagram {
-  background-image: url("img/instagram-icon.svg");
+  background-image: url("../img/instagram-icon.svg");
 }
 
 .social-link-facebook {
-  background-image: url("img/facebook-icon.svg");
+  background-image: url("../img/facebook-icon.svg");
 }
 
 .social-link-twitter {
-  background-image: url("img/twitter-icon.svg");
+  background-image: url("../img/twitter-icon.svg");
 }
